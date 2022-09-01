@@ -11,6 +11,7 @@ import {
 import { StepsData } from './Onboard.data';
 
 import check from '../assests/icons/check.png';
+import checkright from "../assests/icons/checkright.gif"
 
 export const Onboard = () => {
   const [currentStep, setCurrentStep] = useState(0);
@@ -48,7 +49,7 @@ export const Onboard = () => {
 
       {StepsData.length - 1 === currentStep && (
         <CompletionImageContainer>
-          <img src={check} alt="completed_check" />
+          <img src={checkright} alt="completed_check" />
         </CompletionImageContainer>
       )}
 
