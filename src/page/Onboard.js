@@ -10,7 +10,6 @@ import {
 
 import { StepsData } from './Onboard.data';
 
-import check from '../assests/icons/check.png';
 import checkright from "../assests/icons/checkright.gif"
 
 export const Onboard = () => {
